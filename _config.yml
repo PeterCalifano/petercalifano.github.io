@@ -1,3 +1,7 @@
 title: Pietro Califano
-description: Research and projects
-theme: minima
+description: Aerospace Engineering PhD student – Research & Projects
+theme: jekyll-theme-minimal
+author: Pietro Califano
+
+# Optional
+markdown: kramdown
