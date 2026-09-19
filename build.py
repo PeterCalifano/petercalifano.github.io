@@ -68,9 +68,9 @@ page('publications.html','Publications','Journal articles and conference contrib
 
 projects=head('03 / PROJECTS','Selected projects','Contributions to mission software, navigation algorithms, simulation facilities, and research libraries.')
 projects+='<section id="missions"><div class="section-head"><h2>Space missions</h2></div>'
-projects+=row('RAMSES Farinella','Navigation-filter development','<p>Designed and validated the navigation filter for the RAMSES RCS-1 (Farinella) CubeSat, combining centroiding and LiDAR measurements.</p>','2025–PRESENT',('Navigation filtering','Centroiding','LiDAR'))
+projects+=row('RAMSES Farinella','Navigation-filter development','<p>Designed and validated the navigation filter for the RAMSES RCS-1 (Farinella) CubeSat, combining centroiding and LiDAR measurements.</p><p>'+a('https://dart.polimi.it/projects/#_farinella','Farinella at DART')+'</p>','2025–PRESENT',('Navigation filtering','Centroiding','LiDAR'))
 projects+=row('FUTURE','Navigation-filter and software integration','<p>Designed and integrated the navigation filter and image-processing interfaces for the ASI FUTURE payload, supporting autonomous navigation from visual observations.</p><p>'+a('https://dart.polimi.it/projects/#_future','FUTURE at DART')+'</p>','2024–PRESENT',('MATLAB / Simulink','C++ services','Jetson Orin NX'))
-projects+=row('Hera Milani','GNC software &amp; navigation experiments','<p>Contributed to GNC and image-processing software validation for the Hera Milani CubeSat, including navigation experiments and GNC commissioning.</p>','2024–PRESENT',('GNC / image processing','Commissioning','Software validation'))
+projects+=row('Hera Milani','GNC software &amp; navigation experiments','<p>Contributed to GNC and image-processing software validation for the Hera Milani CubeSat, including navigation experiments and GNC commissioning.</p><p>'+a('https://dart.polimi.it/projects/#_milani','Milani at DART')+'</p>','2024–PRESENT',('GNC / image processing','Commissioning','Software validation'))
 projects+='</section><section id="software" class="section"><div class="section-head"><h2>Software &amp; simulation</h2>'+a(GH+'?tab=repositories','All GitHub repositories')+'</div><div class="project-grid">'
 cards=[
 ('STATE ESTIMATION','EstimationGears for SpaceNav','A library of state-estimation methods for spacecraft navigation.',['MATLAB','C++','State estimation'],GH+'/EstimationGears_for_SpaceNav','View repository'),
@@ -81,7 +81,8 @@ cards=[
 ('SIMULATION','Spectral & radiometric renderer','Spectral and radiometric rendering for synthetic navigation imagery and sensor simulation.',['C++20','CUDA / OptiX','Radiometry'],'research.html#simulation','Simulation methods'),
 ('ROBOTICS','COSMICA–RAFFAELLO','Robot-control and planning software for hardware-in-the-loop validation of spacecraft navigation and image processing.',['MATLAB / C++','ROS 2','MoveIt 2'],'https://dart.polimi.it/facilities/#_raffaello','RAFFAELLO at DART')]
 for kind,title,desc,tech,url,label in cards:
-    projects+=f'<article class="project"><span class="label">{e(kind)}</span><h3>{e(title)}</h3><p>{e(desc)}</p>{tags(tech)}{a(url,label)}</article>'
+    extra_link=a('https://dart.polimi.it/projects/#_cosmica','COSMICA at DART') if title=='COSMICA–RAFFAELLO' else ''
+    projects+=f'<article class="project"><span class="label">{e(kind)}</span><h3>{e(title)}</h3><p>{e(desc)}</p>{tags(tech)}<div class="links">{a(url,label)}{extra_link}</div></article>'
 projects+='</div><p class="muted">Some research software remains private while work is in development or under review. '+a('mailto:pietro.califano@polimi.it','Contact')+' for access enquiries related to research collaborations.</p></section>'
 page('projects.html','Projects','Mission contributions, navigation software, machine-learning tools, rendering, and robotics facilities.',projects)
 
