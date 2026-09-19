@@ -16,7 +16,18 @@ Commit both the sources and generated HTML. The site works without JavaScript, p
 
 Use neutral, subject-focused prose. Use third person for the short biography and direct action verbs for individual contributions. Avoid first-person narration outside attributed quotations, promotional slogans, filler introductions, and formulaic contrasts. Keep technical claims specific and distinguish personal contributions from project descriptions. Preserve the owner's original mottos as quotations. Keep sibling project descriptions at a consistent level: purpose and main method or contribution. Do not mix research areas with implementation features. Repository labels describe broad topics rather than availability. Verify external fragment identifiers against the destination page.
 
-## Content sources
+## Page structure
+
+- Home: brief About section and a compact experience timeline linking to detailed entries.
+- Background: full appointments, education, and technical skills.
+- Research: research methods, applications, and evaluation.
+- Projects: mission contributions and concrete software or facilities.
+- Publications: bibliographic records and manuscript status.
+- Beyond work: personal interests and original mottos.
+
+The homepage About/timeline arrangement takes inspiration from https://antoniorizza.github.io/; its text and implementation are original. Keep homepage summaries brief and avoid copying full descriptions between pages.
+
+## Source records
 
 Content was reviewed on 19 September 2026 against the updated `PeterCalifano/curriculum-vitae-builder` repository (claims, long CV, identity, and publication data), the live `PeterCalifano/PeterCalifano` profile README, DART's member page, and Politecnico publication records.
 
