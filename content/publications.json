@@ -1,10 +1,96 @@
 [
-  {"group":"Publications","year":2026,"type":"Conference","title":"Autonomous Visual Active SLAM for Close Proximity Operations to Small Bodies Combining Goal-Oriented Guidance and Graph-Based Navigation","authors":"P. Califano, A. Beshaj, F. Piccolo, A. Rizza, F. Topputo, P. Panicucci","venue":"48th AAS Guidance, Navigation and Control Conference, pp. 1–21"},
-  {"group":"Publications","year":2026,"type":"Conference","title":"Maneuver-Based Scale Estimation in Visual SLAM for Autonomous Asteroid Exploration","authors":"C. Matarrese, P. Califano, F. Piccolo, P. Panicucci","venue":"48th AAS Guidance, Navigation and Control Conference, pp. 1–20"},
-  {"group":"Publications","year":2026,"type":"Journal","title":"Trajectory Options for RAMSES' Farinella CubeSat around (99942) Apophis","authors":"C. Giordano et al.","venue":"Advances in Space Research","url":"https://doi.org/10.1016/j.asr.2026.06.067","link_label":"DOI / publisher"},
-  {"group":"Publications","year":2026,"type":"Journal","title":"The Hera Milani Mission: Use of a Nanosatellite for Planetary Defence Purposes","authors":"M. Cardi et al.","venue":"Space Science Reviews, 222(4), pp. 1–22"},
-  {"group":"Publications","year":2026,"type":"Conference","title":"FUTURE (Fully Autonomous Feature Recognition Planetary Explorer): An Innovative Approach to Nanosatellite Autonomous Navigation through AI-Powered Visual Observation and Ground Feature Recognition Techniques","authors":"E. Bassissi et al.","venue":"Small Satellites Systems and Services Symposium (4S), Cagliari, Italy, pp. 1–15"},
-  {"group":"Publications","year":2025,"type":"Conference","title":"Simultaneous Localization and Mapping at Small Bodies Combining Incremental Optimization and Sequential Estimation","authors":"F. Piccolo, P. Califano, P. Panicucci, F. Topputo","venue":"18th Symposium on Advanced Space Technologies in Robotics and Automation (ASTRA), pp. 1–8","url":"https://hdl.handle.net/11311/1307430"},
-  {"group":"Manuscripts","year":2026,"type":"Under review","title":"Smoothing and Mapping-Based Navigation System for Autonomous Asteroid Exploration","authors":"P. Califano, F. Piccolo, P. Panicucci, F. Topputo","venue":"Under review at Journal of Guidance, Control, and Dynamics"},
-  {"group":"Manuscripts","year":2026,"type":"Manuscript","title":"Neural Correction of Center-of-Brightness for Robust Centroid Estimation in RAMSES' Farinella Mission","authors":"U. Mondini, P. Califano, P. Panicucci, P. Lunghi, F. Topputo","venue":"Manuscript"}
+  {
+    "year": 2026,
+    "type": "Conference",
+    "title": "Autonomous Visual Active SLAM for Close Proximity Operations to Small Bodies Combining Goal-Oriented Guidance and Graph-Based Navigation",
+    "authors": "P. Califano, A. Beshaj, F. Piccolo, A. Rizza, F. Topputo, P. Panicucci",
+    "venue": "48th AAS Guidance, Navigation and Control Conference, Breckenridge, CO, USA, pp. 1–21",
+    "url": "https://hdl.handle.net/11311/1307068"
+  },
+  {
+    "year": 2026,
+    "type": "Conference",
+    "title": "Maneuver-Based Scale Estimation in Visual SLAM for Autonomous Asteroid Exploration",
+    "authors": "C. Matarrese, P. Califano, F. Piccolo, P. Panicucci",
+    "venue": "48th AAS Guidance, Navigation and Control Conference, Breckenridge, CO, USA, pp. 1–20",
+    "url": "https://hdl.handle.net/11311/1307071"
+  },
+  {
+    "year": 2026,
+    "type": "Journal",
+    "title": "Trajectory Options for RAMSES' Farinella CubeSat around (99942) Apophis",
+    "authors": "C. Giordano et al.",
+    "venue": "Advances in Space Research",
+    "url": "https://doi.org/10.1016/j.asr.2026.06.067",
+    "link_label": "DOI / publisher"
+  },
+  {
+    "year": 2026,
+    "type": "Journal",
+    "title": "The Hera Milani Mission: Use of a Nanosatellite for Planetary Defence Purposes",
+    "authors": "M. Cardi et al.",
+    "venue": "Space Science Reviews, 222(4), pp. 1–22"
+  },
+  {
+    "year": 2026,
+    "type": "Conference",
+    "title": "FUTURE (Fully Autonomous Feature Recognition Planetary Explorer): An Innovative Approach to Nanosatellite Autonomous Navigation through AI-Powered Visual Observation and Ground Feature Recognition Techniques",
+    "authors": "E. Bassissi et al.",
+    "venue": "Small Satellites Systems and Services Symposium (4S), Cagliari, Italy, pp. 1–15",
+    "url": "https://hdl.handle.net/11311/1315965"
+  },
+  {
+    "year": 2026,
+    "type": "Journal",
+    "title": "Smoothing and Mapping-Based Navigation System for Autonomous Asteroid Exploration",
+    "authors": "P. Califano, F. Piccolo, P. Panicucci, F. Topputo",
+    "venue": "Under review at Journal of Guidance, Control, and Dynamics"
+  },
+  {
+    "year": 2026,
+    "type": "Conference",
+    "title": "Neural Correction of Center-of-Brightness for Robust Centroid Estimation in RAMSES' Farinella Mission",
+    "authors": "U. Mondini, P. Califano, P. Panicucci, P. Lunghi, F. Topputo",
+    "venue": "13th ESA International Conference on Guidance, Navigation & Control Systems (GNC), Sevilla, Spain · Manuscript"
+  },
+  {
+    "year": 2025,
+    "type": "Conference",
+    "title": "Simultaneous Localization and Mapping at Small Bodies Combining Incremental Optimization and Sequential Estimation",
+    "authors": "F. Piccolo, P. Califano, P. Panicucci, F. Topputo",
+    "venue": "18th Symposium on Advanced Space Technologies in Robotics and Automation (ASTRA), Leiden, Netherlands, pp. 1–8",
+    "url": "https://hdl.handle.net/11311/1307430"
+  },
+  {
+    "year": 2025,
+    "type": "Conference",
+    "title": "Enhanced Full Visual SLAM for Close Proximity Exploration of Asteroids Combining Incremental Smoothing with Filtering Techniques",
+    "authors": "P. Califano, F. Piccolo, P. Panicucci, F. Topputo",
+    "venue": "35th AAS/AIAA Space Flight Mechanics Meeting, Kauaʻi, HI, USA, pp. 1–22",
+    "url": "https://hdl.handle.net/11311/1282763"
+  },
+  {
+    "year": 2025,
+    "type": "Conference",
+    "title": "The RAMSES CubeSat-1 Mission to (99942) Apophis",
+    "authors": "C. Giordano, F. Topputo, F. Ferrari, L. F. Civati, A. Beshaj, C. Buonagura, I. Fodde, P. Panicucci, F. Piccolo, E. Pilo, P. Califano",
+    "venue": "COSPAR Scientific Symposium, Nicosia, Cyprus",
+    "url": "https://hdl.handle.net/11311/1300500"
+  },
+  {
+    "year": 2024,
+    "type": "Conference",
+    "title": "Scientific and Technological Objectives for the NavCam Payload of Hera’s Milani CubeSat to Binary Asteroid Didymos",
+    "authors": "I. Fodde, A. Cremasco, F. Piccolo, P. Califano, L. F. Civati, A. Rizza, C. Giordano, P. Panicucci, F. Ferrari, F. Topputo",
+    "venue": "75th International Astronautical Congress (IAC), Milan, Italy, pp. 780–791",
+    "url": "https://hdl.handle.net/11311/1277680"
+  },
+  {
+    "year": 2024,
+    "type": "Conference",
+    "title": "The ALCOR mission FUTURE: an In-Orbit Demonstrator for On-Board Fully Autonomous Vision-Based Navigation",
+    "authors": "A. Morselli et al.",
+    "venue": "75th International Astronautical Congress (IAC), Milan, Italy, pp. 1683–1695",
+    "url": "https://hdl.handle.net/11311/1276734"
+  }
 ]

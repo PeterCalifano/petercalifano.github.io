@@ -42,7 +42,7 @@ home='''<section class="hero"><div><p class="eyebrow">AEROSPACE ENGINEERING / AU
 <li><span class="career-date">Dec 2023–present</span><div><h3><a href="about.html#dart">PhD researcher</a></h3><p>DART Lab · Politecnico di Milano</p></div></li>
 <li><span class="career-date">Apr–Sep 2023</span><div><h3><a href="about.html#esa">GNC intern · Hera mission</a></h3><p>European Space Agency · ESTEC</p></div></li>
 <li><span class="career-date">Dec 2021–Dec 2023</span><div><h3><a href="about.html#polispace">AOCS team member, then team leader</a></h3><p>PoliSpace · 6S CubeSat</p></div></li>
-</ol></section><section id="contacts" class="contact"><h2>Contacts</h2><div><div class="links">'''+a('mailto:pietro.califano@polimi.it','pietro.califano@polimi.it')+a(LINKEDIN,'LinkedIn')+'''</div></div></section>'''
+</ol></section><section id="contacts" class="contact"><h2>Contacts</h2><div><div class="links">'''+a('mailto:pietro.califano@polimi.it','pietro.califano@polimi.it')+a('mailto:petercalifano.gs@gmail.com','petercalifano.gs@gmail.com')+a(LINKEDIN,'LinkedIn')+'''</div></div></section>'''
 page('index.html','Autonomous navigation, SLAM & research software','Pietro Califano, PhD researcher at DART Lab, Politecnico di Milano. Visual navigation, SLAM, spacecraft GNC, and research software.',home)
 
 research=head('01 / RESEARCH','Research interests','Visual navigation and state estimation for small-body exploration, where prior maps are limited, dynamics are uncertain, and GNSS is unavailable. Related work addresses sensor fusion for robotic platforms.')
@@ -54,17 +54,17 @@ research+='<div class="section"><div class="links">'+a('publications.html','Publ
 page('research.html','Research','Visual SLAM, factor-graph estimation, multi-sensor fusion, perception, and simulation for spacecraft and robots.',research)
 
 publications=json.loads((ROOT/'content/publications.json').read_text())
-pubbody=head('02 / PUBLICATIONS','Publications &amp; manuscripts','Conference papers, journal articles, and manuscripts on autonomous navigation and small-body missions.')
+pubbody=head('02 / PUBLICATIONS','Publications','Journal articles and conference contributions on autonomous navigation and small-body missions.')
 pubbody+='<div class="links" style="margin-bottom:45px">'+a(SCHOLAR,'Google Scholar')+a('https://orcid.org/0009-0003-6157-3515','ORCID')+a('https://dart.polimi.it/publications/','DART publications')+'</div>'
-for group in ['Publications','Manuscripts']:
-    pubbody+=f'<section class="publication-group"><h2>{group}</h2>'
+for year in sorted({p['year'] for p in publications}, reverse=True):
+    pubbody+=f'<section class="publication-group"><h2>{year}</h2>'
     for p in publications:
-        if p['group']!=group: continue
+        if p['year']!=year: continue
         authors=e(p['authors']).replace('P. Califano','<strong>P. Califano</strong>')
         link='<div class="links">'+a(p['url'],p.get('link_label','Publication record'))+'</div>' if p.get('url') else ''
         pubbody+=f'<article class="pub"><div class="meta">{p["year"]}</div><div><span class="label">{e(p["type"])}</span><h3>{e(p["title"])}</h3><p>{authors}</p><p>{e(p["venue"])}</p>{link}</div></article>'
     pubbody+='</section>'
-page('publications.html','Publications','Selected conference papers, journal articles, and manuscripts by Pietro Califano and collaborators.',pubbody)
+page('publications.html','Publications','Journal articles and conference contributions by Pietro Califano and collaborators.',pubbody)
 
 projects=head('03 / PROJECTS','Selected projects','Contributions to mission software, navigation algorithms, simulation facilities, and research libraries.')
 projects+='<section id="missions"><div class="section-head"><h2>Space missions</h2></div>'
