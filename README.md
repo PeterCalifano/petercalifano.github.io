@@ -14,7 +14,7 @@ Commit both the sources and generated HTML. The site works without JavaScript, p
 
 ## Editorial style
 
-Use neutral, subject-focused prose. Use third person for the short biography and direct action verbs for individual contributions. Avoid first-person narration outside attributed quotations, promotional slogans, filler introductions, and formulaic contrasts. Keep technical claims specific and distinguish personal contributions from project descriptions. Preserve the owner's original mottos as quotations.
+Use neutral, subject-focused prose. Use third person for the short biography and direct action verbs for individual contributions. Avoid first-person narration outside attributed quotations, promotional slogans, filler introductions, and formulaic contrasts. Keep technical claims specific and distinguish personal contributions from project descriptions. Preserve the owner's original mottos as quotations. Keep sibling project descriptions at a consistent level: purpose and main method or contribution. Do not mix research areas with implementation features. Repository labels describe broad topics rather than availability. Verify external fragment identifiers against the destination page.
 
 ## Content sources
 
