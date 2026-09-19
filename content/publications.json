@@ -92,5 +92,31 @@
     "authors": "A. Morselli et al.",
     "venue": "75th International Astronautical Congress (IAC), Milan, Italy, pp. 1683–1695",
     "url": "https://hdl.handle.net/11311/1276734"
+  },
+  {
+    "year": 2023,
+    "type": "Conference",
+    "title": "Attitude Path Planning to Improve Full-Magnetic Control Performance of 6S CubeSat",
+    "authors": "D. Perico, P. Califano, M. Bussolino, A. Ottaviani",
+    "venue": "74th International Astronautical Congress (IAC), Baku, Azerbaijan",
+    "url": "https://iafastro.directory/iac/paper/id/79457/summary/",
+    "link_label": "Conference record"
+  },
+  {
+    "year": 2023,
+    "type": "Conference",
+    "title": "6S CubeSat: a Student-made IOD Mission for Characterization of Perovskite Solar Cells and Structural Battery",
+    "authors": "S. Alkhawashke, J. Bedoya, G. Biagetti, F. Biondi, P. Califano, R. Capasso, A. Crispiels, C. Garcia Jimenez, I. Lujan Fernandez, D. Martire, L. Mazzotti, M. Pepellin, A. Prosperi, D. Scalettari, A. Zanetti, M. Bussolino, D. Perico",
+    "venue": "74th International Astronautical Congress (IAC), Baku, Azerbaijan",
+    "url": "https://www.scopus.com/inward/record.url?eid=2-s2.0-85188002976&partnerID=MN8TOARS",
+    "link_label": "Scopus record"
+  },
+  {
+    "year": 2023,
+    "type": "Conference",
+    "title": "Enceladus Moon in Situ Science: Preliminary Mission Analysis and GNC Design for the EPOPEA Mission",
+    "authors": "M. Lusvarghi, P. Califano, A. Cremasco, F. Maccari, E. Pilo, M. Lavagna",
+    "venue": "74th International Astronautical Congress (IAC), Baku, Azerbaijan, pp. 1–15",
+    "url": "https://hdl.handle.net/11311/1254397"
   }
 ]

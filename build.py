@@ -54,8 +54,8 @@ research+='<div class="section"><div class="links">'+a('publications.html','Publ
 page('research.html','Research','Visual SLAM, factor-graph estimation, multi-sensor fusion, perception, and simulation for spacecraft and robots.',research)
 
 publications=json.loads((ROOT/'content/publications.json').read_text())
-pubbody=head('02 / PUBLICATIONS','Publications','Journal articles and conference contributions on autonomous navigation and small-body missions.')
-pubbody+='<div class="links" style="margin-bottom:45px">'+a(SCHOLAR,'Google Scholar')+a('https://orcid.org/0009-0003-6157-3515','ORCID')+a('https://dart.polimi.it/publications/','DART publications')+'</div>'
+pubbody=head('02 / PUBLICATIONS','Publications','Journal articles and conference contributions on spacecraft navigation, attitude control, and mission design.')
+pubbody+='<div class="links" style="margin-bottom:45px">'+a(SCHOLAR,'Google Scholar')+a('https://re.public.polimi.it/cris/rp/rp241375','RE.PUBLIC@Polimi')+a('https://orcid.org/0009-0003-6157-3515','ORCID')+a('https://dart.polimi.it/publications/','DART publications')+'</div>'
 for year in sorted({p['year'] for p in publications}, reverse=True):
     pubbody+=f'<section class="publication-group"><h2>{year}</h2>'
     for p in publications:
