@@ -101,7 +101,8 @@ for title,desc in skills: about+=f'<div><h3>{e(title)}</h3><p>{e(desc)}</p></div
 about+='</div></section><div class="callout"><div><h2>Research profiles &amp; contact</h2><p>Italian (native). English: C1 spoken and written, C2 reading.</p><div class="links" style="margin-top:20px">'+a(LINKEDIN,'LinkedIn')+a(SCHOLAR,'Google Scholar')+a('https://orcid.org/0009-0003-6157-3515','ORCID')+a('https://www.aero.polimi.it/en/staff/pietro.califano','Politecnico profile')+a('mailto:pietro.califano@polimi.it','Email')+'</div></div></div>'
 page('about.html','Background & skills','Experience at DART Lab, DFKI, ESA ESTEC, and PoliSpace; education and technical skills.',about)
 
-beyond=head('05 / BEYOND WORK','Personal interests','Pietro, also known as PC.')
+beyond=head('05 / BEYOND WORK','Personal interests','Pietro, also known as PC or PeterC. '+a('https://steamcommunity.com/id/maxermast/','Maxermast on Steam')+'.')
+beyond+='<blockquote class="quote"><p>“Study hard what interests you the most in the most undisciplined, irreverent and original manner possible.”</p><cite>Richard P. Feynman</cite></blockquote>'
 beyond+='<blockquote class="quote"><p>“Wonder is anywhere, if you are curious enough to discover it.”</p><cite>Personal motto</cite></blockquote><div class="hobby-grid">'
 for num,title,desc in [('01','Running','Regular running and time outdoors.'),('02','Anime & videogames','Watching anime, playing videogames, and discussing both.'),('03','Learning Japanese','Learning the writing systems, pronunciation, and grammar.'),('04','Reading','Mainly scientific essays.'),('05','Hardware &amp; Linux','PC hardware, Linux, and other computing interests.'),('06','Building things','Computer graphics, ray tracing, and small software tools.')]:
     beyond+=f'<section class="hobby"><span class="number">{num}</span><h2>{title}</h2>'+('<span class="japanese" lang="ja">日本語</span><p class="meta">Nihongo · Japanese</p>' if num=='03' else '')+f'<p>{desc}</p></section>'
