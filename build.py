@@ -8,7 +8,7 @@ BASE = 'https://petercalifano.github.io'
 GH = 'https://github.com/PeterCalifano'
 LINKEDIN = 'https://www.linkedin.com/in/pietro-califano-a46b7b199/'
 SCHOLAR = 'https://scholar.google.com/citations?user=Yvol8yQAAAAJ&hl=en'
-NAV = [('index.html','Home'),('research.html','Research'),('publications.html','Publications'),('projects.html','Projects'),('about.html','Background'),('beyond.html','Beyond work')]
+NAV = [('index.html','Home'),('research.html','Research'),('publications.html','Publications'),('projects.html','Projects'),('about.html','Background'),('beyond.html','Beyond work'),('index.html#contacts','Contacts')]
 
 def a(url,label,cls=''):
     return f'<a href="{e(url,quote=True)}"'+(f' class="{cls}"' if cls else '')+f'>{label}</a>'
@@ -32,17 +32,17 @@ def page(filename,title,description,body):
 <link rel="icon" type="image/svg+xml" href="assets/favicon.svg"><link rel="stylesheet" href="assets/site.css"><link rel="stylesheet" href="assets/home.css"></head>
 <body><a class="skip" href="#main">Skip to content</a><header class="site-header"><div class="wrap header-inner"><a class="brand" href="index.html"><span class="monogram" aria-hidden="true">PC</span><span>Pietro Califano</span></a><nav class="nav" aria-label="Main navigation">{nav}</nav></div></header>
 <main id="main" class="wrap">{body}</main>
-<footer class="footer"><div class="wrap"><span>© 2026 Pietro Califano</span><div class="footer-links">{a('https://dart.polimi.it/','DART · Politecnico di Milano')}{a(GH,'GitHub')}{a(LINKEDIN,'LinkedIn')}{a('mailto:pietro.califano@polimi.it','Email')}</div></div></footer></body></html>'''
+<footer class="footer"><div class="wrap"><span>© 2026 Pietro Califano</span><div class="footer-links">{a('https://dart.polimi.it/','DART · Politecnico di Milano')}{a(GH,'GitHub')}{a(LINKEDIN,'LinkedIn')}{a('index.html#contacts','Contacts')}</div></div></footer></body></html>'''
     (ROOT/filename).write_text(html,encoding='utf-8')
 
-home='''<section class="hero"><div><p class="eyebrow">AEROSPACE ENGINEERING / AUTONOMOUS NAVIGATION</p><h1>Pietro Califano<span style="color:var(--accent)">.</span></h1><p class="role">PhD researcher in Aerospace Engineering</p><p class="lead">Visual navigation, SLAM, and multi-sensor state estimation.</p><div class="links">'''+a('research.html','Research','button primary')+a('about.html','Background &amp; skills')+'''</div></div><figure class="portrait"><img src="assets/portrait.png" width="250" height="250" alt="Portrait of Pietro Califano"><figcaption>Pietro, also known as PC.<br>DART Lab, Politecnico di Milano</figcaption></figure></section>
+home='''<section class="hero"><div><p class="eyebrow">AEROSPACE ENGINEERING / AUTONOMOUS NAVIGATION</p><h1>Pietro Califano<span style="color:var(--accent)">.</span></h1><p class="role">PhD researcher in Aerospace Engineering</p><p class="lead">Visual navigation, SLAM, and multi-sensor state estimation.</p><div class="links">'''+a('research.html','Research','button primary')+a('about.html','Background &amp; skills')+'''</div></div><figure class="portrait"><img src="assets/portrait.png" width="250" height="250" alt="Portrait of Pietro Califano"></figure></section>
 <section class="home-about" aria-labelledby="about-heading"><h2 id="about-heading">About</h2><div><p>Pietro Califano is a PhD researcher at DART Lab, Politecnico di Milano, and a guest researcher at the DFKI Robotics Innovation Center. His research focuses on autonomous navigation for small-body missions, with related work on state estimation for robotic platforms.</p><p>Previous experience includes Hera GNC activities at ESA ESTEC and the PoliSpace 6S CubeSat project.</p></div></section>
 <section class="home-experience" aria-labelledby="experience-heading"><div class="section-head"><h2 id="experience-heading">Experience</h2>'''+a('about.html#experience','Background &amp; details')+'''</div><ol class="career-timeline">
 <li><span class="career-date">May–Nov 2026</span><div><h3><a href="about.html#dfki">Guest researcher</a></h3><p>DFKI Robotics Innovation Center</p></div></li>
 <li><span class="career-date">Dec 2023–present</span><div><h3><a href="about.html#dart">PhD researcher</a></h3><p>DART Lab · Politecnico di Milano</p></div></li>
 <li><span class="career-date">Apr–Sep 2023</span><div><h3><a href="about.html#esa">GNC intern · Hera mission</a></h3><p>European Space Agency · ESTEC</p></div></li>
 <li><span class="career-date">Dec 2021–Dec 2023</span><div><h3><a href="about.html#polispace">AOCS team member, then team leader</a></h3><p>PoliSpace · 6S CubeSat</p></div></li>
-</ol></section><section class="contact"><h2>Contact</h2><div><div class="links">'''+a('mailto:pietro.califano@polimi.it','pietro.califano@polimi.it')+a(LINKEDIN,'LinkedIn')+'''</div></div></section>'''
+</ol></section><section id="contacts" class="contact"><h2>Contacts</h2><div><div class="links">'''+a('mailto:pietro.califano@polimi.it','pietro.califano@polimi.it')+a(LINKEDIN,'LinkedIn')+'''</div></div></section>'''
 page('index.html','Autonomous navigation, SLAM & research software','Pietro Califano, PhD researcher at DART Lab, Politecnico di Milano. Visual navigation, SLAM, spacecraft GNC, and research software.',home)
 
 research=head('01 / RESEARCH','Research interests','Visual navigation and state estimation for small-body exploration, where prior maps are limited, dynamics are uncertain, and GNSS is unavailable. Related work addresses sensor fusion for robotic platforms.')
@@ -100,11 +100,11 @@ for title,desc in skills: about+=f'<div><h3>{e(title)}</h3><p>{e(desc)}</p></div
 about+='</div></section><div class="callout"><div><h2>Research profiles &amp; contact</h2><p>Italian (native). English: C1 spoken and written, C2 reading.</p><div class="links" style="margin-top:20px">'+a(LINKEDIN,'LinkedIn')+a(SCHOLAR,'Google Scholar')+a('https://orcid.org/0009-0003-6157-3515','ORCID')+a('https://www.aero.polimi.it/en/staff/pietro.califano','Politecnico profile')+a('mailto:pietro.califano@polimi.it','Email')+'</div></div></div>'
 page('about.html','Background & skills','Experience at DART Lab, DFKI, ESA ESTEC, and PoliSpace; education and technical skills.',about)
 
-beyond=head('05 / BEYOND WORK','Personal interests','Interests outside research include running, anime, videogames, and Japanese. Side projects often involve computer graphics and software tools.')
+beyond=head('05 / BEYOND WORK','Personal interests','Pietro, also known as PC.')
 beyond+='<blockquote class="quote"><p>“Wonder is anywhere, if you are curious enough to discover it.”</p><cite>Personal motto</cite></blockquote><div class="hobby-grid">'
-for num,title,desc in [('01','Running','Regular running and time outdoors.'),('02','Anime & videogames','Watching anime, playing videogames, and discussing both.'),('03','Learning Japanese','Learning the writing systems, pronunciation, and grammar.'),('04','Building things','Computer graphics, ray tracing, and small software tools.')]:
+for num,title,desc in [('01','Running','Regular running and time outdoors.'),('02','Anime & videogames','Watching anime, playing videogames, and discussing both.'),('03','Learning Japanese','Learning the writing systems, pronunciation, and grammar.'),('04','Reading','Mainly scientific essays.'),('05','Hardware &amp; Linux','PC hardware, Linux, and other computing interests.'),('06','Building things','Computer graphics, ray tracing, and small software tools.')]:
     beyond+=f'<section class="hobby"><span class="number">{num}</span><h2>{title}</h2>'+('<span class="japanese" lang="ja">日本語</span><p class="meta">Nihongo · Japanese</p>' if num=='03' else '')+f'<p>{desc}</p></section>'
-beyond+='</div><blockquote class="quote"><p>“Give me a task and I will code a SW library to automate it.”</p><cite>Coding motto</cite></blockquote><section class="contact"><h2>Contact</h2><div><div class="links">'+a('mailto:petercalifano.gs@gmail.com','petercalifano.gs@gmail.com')+a('https://t.me/peter_califano','Telegram')+a(LINKEDIN,'LinkedIn')+'</div></div></section>'
-page('beyond.html','Beyond work','Personal interests: running, anime, videogames, Japanese, and software projects.',beyond)
+beyond+='</div><blockquote class="quote"><p>“Give me a task and I will code a SW library to automate it.”</p><cite>Coding motto</cite></blockquote><section id="contacts" class="contact"><h2>Contacts</h2><div><div class="links">'+a('mailto:petercalifano.gs@gmail.com','petercalifano.gs@gmail.com')+a('https://t.me/peter_califano','Telegram')+a(LINKEDIN,'LinkedIn')+'</div></div></section>'
+page('beyond.html','Beyond work','Personal interests: reading, running, anime, videogames, Japanese, PC hardware, Linux, and software projects.',beyond)
 page('404.html','Page not found','This page could not be found.',head('404 / PAGE NOT FOUND','Page not found','The requested page is unavailable.')+'<div class="section">'+a(BASE+'/','Back to home','button primary')+'</div>')
 print('Built 7 HTML pages.')
