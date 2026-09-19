@@ -12,7 +12,11 @@ python3 build.py
 
 Commit both the sources and generated HTML. The site works without JavaScript, package installation, or third-party fonts. All generated pages and assets are served from the repository root. `.nojekyll` disables Jekyll processing. GitHub Pages should publish the root of `main`.
 
-## Content provenance
+## Editorial style
+
+Use neutral, subject-focused prose. Use third person for the short biography and direct action verbs for individual contributions. Avoid first-person narration outside attributed quotations, promotional slogans, filler introductions, and formulaic contrasts. Keep technical claims specific and distinguish personal contributions from project descriptions. Preserve the owner's original mottos as quotations.
+
+## Content sources
 
 Content was reviewed on 19 September 2026 against the updated `PeterCalifano/curriculum-vitae-builder` repository (claims, long CV, identity, and publication data), the live `PeterCalifano/PeterCalifano` profile README, DART's member page, and Politecnico publication records.
 
