@@ -2,6 +2,13 @@
   {
     "year": 2026,
     "type": "Conference",
+    "title": "Prior knowledge-informed centroiding CNN for planetary and small bodies navigation",
+    "authors": "U. Mondini et al.",
+    "venue": "SPAICE 2026 — AI in and for Space, ESA–ESTEC, Noordwijk, The Netherlands, 21–23 October 2026 · Upcoming oral presentation"
+  },
+  {
+    "year": 2026,
+    "type": "Conference",
     "title": "Autonomous Visual Active SLAM for Close Proximity Operations to Small Bodies Combining Goal-Oriented Guidance and Graph-Based Navigation",
     "authors": "P. Califano, A. Beshaj, F. Piccolo, A. Rizza, F. Topputo, P. Panicucci",
     "venue": "48th AAS Guidance, Navigation and Control Conference, Breckenridge, CO, USA, pp. 1–21",
@@ -21,8 +28,7 @@
     "title": "Trajectory Options for RAMSES' Farinella CubeSat around (99942) Apophis",
     "authors": "C. Giordano et al.",
     "venue": "Advances in Space Research",
-    "url": "https://doi.org/10.1016/j.asr.2026.06.067",
-    "link_label": "DOI / publisher"
+    "url": "https://doi.org/10.1016/j.asr.2026.06.067"
   },
   {
     "year": 2026,
@@ -51,7 +57,7 @@
     "type": "Conference",
     "title": "Neural Correction of Center-of-Brightness for Robust Centroid Estimation in RAMSES' Farinella Mission",
     "authors": "U. Mondini, P. Califano, P. Panicucci, P. Lunghi, F. Topputo",
-    "venue": "13th ESA International Conference on Guidance, Navigation & Control Systems (GNC), Sevilla, Spain · Manuscript"
+    "venue": "13th ESA International Conference on Guidance, Navigation & Control Systems (GNC), Sevilla, Spain"
   },
   {
     "year": 2025,
@@ -99,8 +105,7 @@
     "title": "Attitude Path Planning to Improve Full-Magnetic Control Performance of 6S CubeSat",
     "authors": "D. Perico, P. Califano, M. Bussolino, A. Ottaviani",
     "venue": "74th International Astronautical Congress (IAC), Baku, Azerbaijan",
-    "url": "https://iafastro.directory/iac/paper/id/79457/summary/",
-    "link_label": "Conference record"
+    "url": "https://iafastro.directory/iac/paper/id/79457/summary/"
   },
   {
     "year": 2023,
@@ -108,8 +113,7 @@
     "title": "6S CubeSat: a Student-made IOD Mission for Characterization of Perovskite Solar Cells and Structural Battery",
     "authors": "S. Alkhawashke, J. Bedoya, G. Biagetti, F. Biondi, P. Califano, R. Capasso, A. Crispiels, C. Garcia Jimenez, I. Lujan Fernandez, D. Martire, L. Mazzotti, M. Pepellin, A. Prosperi, D. Scalettari, A. Zanetti, M. Bussolino, D. Perico",
     "venue": "74th International Astronautical Congress (IAC), Baku, Azerbaijan",
-    "url": "https://www.scopus.com/inward/record.url?eid=2-s2.0-85188002976&partnerID=MN8TOARS",
-    "link_label": "Scopus record"
+    "url": "https://www.scopus.com/inward/record.url?eid=2-s2.0-85188002976&partnerID=MN8TOARS"
   },
   {
     "year": 2023,

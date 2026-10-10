@@ -16,7 +16,7 @@ Open <http://localhost:8765/research.html> for the Research-page draft or
 `HANDOFF_PROMPT.md` before editing. Its generator can overwrite hand-edited
 wording, so do not rebuild it without first inspecting the current files.
 
-Website integration and publication require explicit acceptance. Once accepted,
-integrate page content through root `build.py` and selected media through
-`assets/`, following the repository's source-and-generated-HTML workflow.
-Do not force-add the preview package to publish it.
+The Research showcase is now integrated through root `build.py`. Its final
+media is hosted as GitHub release attachments; see the root README for the
+release link. Keep the preview package local and do not force-add it. Future
+media replacements and website deployment require explicit authorization.

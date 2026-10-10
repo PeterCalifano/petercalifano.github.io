@@ -3,3 +3,5 @@
 .research-points{padding-left:1.2em;margin:0 0 1.5rem;color:var(--muted)}.research-points li+li{margin-top:.65rem}
 
 .quote-small p{font-size:clamp(1.4rem,3.2vw,2.2rem)}
+
+.research-showcase{padding:30px 0 50px}.research-showcase figure{margin:24px 0 16px}.research-showcase video,.research-showcase img{display:block;width:100%;height:auto;border-radius:4px}.research-showcase video{background:#000}.research-tracking figure{width:min(100%,560px);margin:24px auto 16px;text-align:center}@media(max-width:720px){.research-showcase{padding-top:20px}}

@@ -1,0 +1,50 @@
+{
+  "Methods and topics": [
+    "State estimation",
+    "Navigation filtering",
+    "Recursive filtering",
+    "Sensor fusion",
+    "SLAM",
+    "Visual SLAM",
+    "Visual navigation",
+    "Factor graphs",
+    "GNC",
+    "Computer vision",
+    "Image processing",
+    "Centroiding",
+    "Event-based vision",
+    "Photometric modelling",
+    "Machine learning",
+    "Machine learning inference",
+    "Orbital dynamics",
+    "Dynamical modelling",
+    "Sensor simulation",
+    "Physically based rendering",
+    "Radiometry",
+    "Monte Carlo analysis"
+  ],
+  "Sensors and hardware": [
+    "Inertial sensing",
+    "Contact measurements",
+    "LiDAR",
+    "Jetson Orin NX"
+  ],
+  "Languages and tools": [
+    "C++",
+    "Python",
+    "MATLAB",
+    "Simulink",
+    "PyTorch",
+    "ONNX",
+    "TensorRT",
+    "CUDA",
+    "OptiX",
+    "ROS 2",
+    "MoveIt 2"
+  ],
+  "Engineering activities": [
+    "Model deployment",
+    "Software validation",
+    "Commissioning"
+  ]
+}
