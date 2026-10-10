@@ -8,6 +8,7 @@ TAG_GROUPS = json.loads((ROOT/'content/tags.json').read_text())
 ALLOWED_TAGS = {tag for group in TAG_GROUPS.values() for tag in group}
 BASE = 'https://petercalifano.github.io'
 GH = 'https://github.com/PeterCalifano'
+RESEARCH_MEDIA = 'https://github.com/PeterCalifano/petercalifano.github.io/releases/download/research-showcase-2026-10-10'
 LINKEDIN = 'https://www.linkedin.com/in/pietro-califano-a46b7b199/'
 SCHOLAR = 'https://scholar.google.com/citations?user=Yvol8yQAAAAJ&hl=en'
 NAV = [('index.html','Home'),('research.html','Research'),('publications.html','Publications'),('projects.html','Projects'),('about.html','Background'),('beyond.html','Beyond work'),('index.html#contacts','Contacts')]
@@ -49,10 +50,10 @@ home='''<section class="hero"><div><p class="eyebrow">AEROSPACE ENGINEERING / AU
 <li><span class="career-date">Dec 2023–present</span><div><h3><a href="about.html#dart">PhD researcher</a></h3><p>DART Lab · Politecnico di Milano</p></div></li>
 <li><span class="career-date">Apr–Sep 2023</span><div><h3><a href="about.html#esa">GNC intern · Hera mission</a></h3><p>European Space Agency · ESTEC</p></div></li>
 <li><span class="career-date">Dec 2021–Dec 2023</span><div><h3><a href="about.html#polispace">AOCS team member, then team leader</a></h3><p>PoliSpace · 6S CubeSat</p></div></li>
-</ol></section><section id="contacts" class="contact"><h2>Contacts</h2><div><div class="links">'''+a('mailto:pietro.califano@polimi.it','pietro.califano@polimi.it')+a('mailto:petercalifano.gs@gmail.com','petercalifano.gs@gmail.com')+a(LINKEDIN,'LinkedIn')+a('assets/pietro-califano-qr.png','Website QR code')+'''</div></div></section>'''
+</ol></section>
+<section class="home-highlight" aria-labelledby="research-highlight-heading"><div class="section-head"><h2 id="research-highlight-heading">Research highlight</h2></div><div class="highlight-grid"><div><p>Closed-loop spacecraft navigation around small bodies, combining visual measurements, state estimation, guidance and mapping.</p><div class="links">'''+a('research.html#navigation','Explore the research')+'''</div></div><a class="highlight-preview" href="research.html#navigation"><img src="'''+RESEARCH_MEDIA+'''/bennu_overview_poster.png" width="1600" height="1600" loading="lazy" decoding="async" alt="Explore the Bennu research showcase: spacecraft trajectory, camera view and SLAM map"></a></div></section>
+<section id="contacts" class="contact"><h2>Contacts</h2><div><div class="links">'''+a('mailto:pietro.califano@polimi.it','pietro.califano@polimi.it')+a('mailto:petercalifano.gs@gmail.com','petercalifano.gs@gmail.com')+a(LINKEDIN,'LinkedIn')+a('assets/pietro-califano-qr.png','Website QR code')+'''</div></div></section>'''
 page('index.html','Autonomous navigation, SLAM & research software','Pietro Califano, PhD researcher at DART Lab, Politecnico di Milano. Visual navigation, SLAM, spacecraft GNC, and research software.',home)
-
-RESEARCH_MEDIA = 'https://github.com/PeterCalifano/petercalifano.github.io/releases/download/research-showcase-2026-10-10'
 
 def research_video(name, label, ident):
     return (f'<div class="research-showcase" id="{ident}"><figure>'
