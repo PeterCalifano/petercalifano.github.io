@@ -4,7 +4,14 @@ A professional, multipage site for research, publications, projects, background,
 
 ## Update the site
 
-Edit `build.py` for page content and shared HTML; edit `assets/site.css` for styling. Publication records live in `content/publications.json`. Run:
+Edit the Markdown files in `content/` for page text. Start with
+[content/home.md](content/home.md) for the homepage About paragraph or
+[content/research.md](content/research.md) for research bullets.
+See the [editing guide](content/README.md) for the supported format.
+
+Edit `build.py` for layout, section titles, dates and links; edit `assets/site.css`
+or `assets/home.css` for styling. Publication records live in
+`content/publications.json`. Run:
 
 ```sh
 python3 build.py
