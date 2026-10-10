@@ -42,8 +42,9 @@ at ESTEC and contributed to the PoliSpace 6S CubeSat project during his MSc stud
 ## Research highlight
 
 <!--
-Below Experience, next to the linked Bennu poster. One short text field. The image and
-Explore the research link are defined in build.py.
+Below Experience, between the Research highlight heading and the large centred Bennu
+poster. One short text field. The Explore the research link appears below the image.
+The image, link and layout are defined in build.py.
 -->
 
 Closed-loop spacecraft navigation around small bodies, combining visual measurements,
