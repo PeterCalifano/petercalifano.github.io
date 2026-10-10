@@ -1,2 +1,9 @@
 __pycache__/
 .sites-runtime/
+
+# Temporary development previews, media, logs and working notes.
+/development/*
+!/development/README.md
+
+# Local editor workspace configuration.
+/*.code-workspace
