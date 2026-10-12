@@ -25,6 +25,18 @@ lines are folded.
 Extending and adapting visual navigation and state estimation software to humanoid platforms, with tightly
 coupled IMU, joint-states, contact, and vision measurements.
 
+## Tyvak International
+
+<!--
+GNC engineer internship entry in the experience timeline. One plain-text description;
+blank lines are folded.
+-->
+
+Contributed to FUTURE IOD mission software integration and processor-in-the-loop (PIL)
+testing, supporting functional verification and validation of the navigation software
+payload experiment. Supported GNC software review and commissioning-plan activities for
+the Hera Milani CubeSat.
+
 ## DART Lab · Politecnico di Milano
 
 <!--
@@ -70,8 +82,9 @@ started in December 2023.
 Below the MSc degree heading in Education. Blank lines create separate paragraphs.
 -->
 
-Politecnico di Milano. Thesis: Hera mission trajectory-safety assessment through onboard
-failure detection. Final grade: 110/110.
+Politecnico di Milano. Thesis, developed at ESA ESTEC: Hera mission trajectory-safety
+assessment through onboard failure detection. Supervisors: Prof. Michèle Lavagna
+(Politecnico di Milano) and Jesús Gil-Fernández (ESA). Final grade: 110/110.
 
 ## BSc in Aerospace Engineering
 
@@ -79,8 +92,9 @@ failure detection. Final grade: 110/110.
 Below the BSc degree heading in Education. Blank lines create separate paragraphs.
 -->
 
-University of Naples Federico II. Thesis: comparison of control laws for LiDAR pointing in
-close-proximity operations. Final grade: 110/110.
+University of Naples Federico II. Elective: Laboratory of Onboard Systems, taught
+by Prof. Roberto Opromolla. Thesis: comparison of control laws for LiDAR pointing in
+close-proximity operations, supervised by Prof. Roberto Opromolla. Final grade: 110/110.
 
 ## Estimation & navigation
 

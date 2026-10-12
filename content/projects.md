@@ -34,7 +34,9 @@ paragraphs.
 -->
 
 Designed and integrated the navigation filter and image-processing interfaces for
-autonomous visual navigation on the ASI FUTURE payload.
+autonomous visual navigation on the ASI FUTURE payload. Planned, ran, and analysed
+open-loop camera and Jetson Orin NX hardware-in-the-loop tests in the RETINA and
+TinyV3RSE optical facilities.
 
 ## Hera Milani
 

@@ -14,7 +14,7 @@ Below your name in the opening section. One line of plain text; line wrapping he
 folded.
 -->
 
-PhD in Aerospace Engineering
+PhD candidate in Aerospace Engineering
 
 ## Lead
 
@@ -42,7 +42,7 @@ at ESTEC and contributed to the PoliSpace 6S CubeSat project during his MSc stud
 ## Research highlight
 
 <!--
-Below Experience, between the Research highlight heading and the large centred Bennu
+Below Experience, between the Research highlight heading and the full-width Bennu
 poster. One short text field. The Explore the research link appears below the image.
 The image, link and layout are defined in build.py.
 -->
