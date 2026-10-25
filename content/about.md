@@ -123,8 +123,10 @@ Under Vision & machine learning in the Experience, skills and tools grid. One pl
 blank lines are folded.
 -->
 
-OpenCV, KLT/ORB feature tracking, image segmentation, photometric modelling, PyTorch, ONNX
-Runtime, TensorRT.
+Experience with feature tracking, matching, and centroiding for visual navigation
+using frame-based and event-based cameras. Geometric image processing with OpenCV and custom code,
+and learning-based methods with PyTorch. Model export and embedded inference with ONNX Runtime and
+TensorRT.
 
 ## Rendering & simulation
 
