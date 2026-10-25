@@ -103,8 +103,10 @@ Under Estimation & navigation in the Experience, skills and tools grid. One plai
 blank lines are folded.
 -->
 
-Visual SLAM, factor graphs, iSAM2/GTSAM, EKF/MEKF, bundle adjustment, multi-view geometry,
-spacecraft GNC.
+Experience with visual SLAM, factor-graph smoothing, and recursive filtering for
+autonomous navigation and state estimation. Factor-graph optimisation with GTSAM/iSAM2
+and bundle adjustment; EKF, UKF, and SRIF for orbit, state, and parameter estimation.
+Applications include spacecraft proximity operations and multi-sensor fusion for robotics.
 
 ## Programming
 
@@ -135,8 +137,10 @@ Under Rendering & simulation in the Experience, skills and tools grid. One plain
 blank lines are folded.
 -->
 
-CUDA/OptiX ray tracing, spectral rendering, BRDF/Hapke models, synthetic datasets,
-reproducible Monte Carlo analysis.
+Experience developing GPU ray-tracing software with CUDA/OptiX for synthetic navigation
+imagery, including spectral and radiometric modelling with BRDF and Hapke reflectance
+models. Spacecraft dynamics and sensor simulation for closed-loop GNC evaluation,
+synthetic dataset generation, and reproducible Monte Carlo analysis.
 
 ## Software & deployment
 
