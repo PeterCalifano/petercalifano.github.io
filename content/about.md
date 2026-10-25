@@ -142,8 +142,11 @@ Under Software & deployment in the Methods & tools grid. One plain-text descript
 blank lines are folded.
 -->
 
-Linux, CMake, Git/GitHub Actions, CUDA, ROS 2, MoveIt 2, code generation, TCP services,
-profiling, and testing.
+Linux, CMake, and Git; GitHub Actions workflows and GitLab CI/CD pipelines;
+Docker and Podman containers; CUDA, ROS 2, and MoveIt 2; code generation.
+Profiling with NVIDIA Nsight Systems/Compute and MATLAB Profiler; testing with
+Google Test, Catch2, CTest, pytest, and MATLAB Unit Test; debugging and memory
+checks with GDB, Valgrind, and sanitizers.
 
 ## Hardware
 
@@ -152,5 +155,6 @@ Under Hardware in the Methods & tools grid. One plain-text description; blank li
 folded.
 -->
 
-NVIDIA Jetson Orin NX, Raspberry Pi, ARM Cortex-A9, Zynq-7000 ZedBoard, event and depth
-cameras.
+Embedded computing platforms: NVIDIA Jetson and Raspberry Pi.
+Vision sensors: iniVation event cameras, Intel RealSense depth cameras, and
+Tyvak Milani/FUTX navigation cameras.
