@@ -99,7 +99,7 @@ close-proximity operations, supervised by Prof. Roberto Opromolla. Final grade: 
 ## Estimation & navigation
 
 <!--
-Under Estimation & navigation in the Methods & tools grid. One plain-text description;
+Under Estimation & navigation in the Experience and tools grid. One plain-text description;
 blank lines are folded.
 -->
 
@@ -109,16 +109,16 @@ spacecraft GNC.
 ## Programming
 
 <!--
-Under Programming in the Methods & tools grid. One plain-text description; blank lines
+Under Programming in the Experience and tools grid. One plain-text description; blank lines
 are folded.
 -->
 
-C++20, Python, MATLAB/Simulink, Bash.
+Experience with C++20, CUDA, Python, MATLAB/Simulink, and Bash.
 
 ## Vision & machine learning
 
 <!--
-Under Vision & machine learning in the Methods & tools grid. One plain-text description;
+Under Vision & machine learning in the Experience and tools grid. One plain-text description;
 blank lines are folded.
 -->
 
@@ -128,7 +128,7 @@ Runtime, TensorRT.
 ## Rendering & simulation
 
 <!--
-Under Rendering & simulation in the Methods & tools grid. One plain-text description;
+Under Rendering & simulation in the Experience and tools grid. One plain-text description;
 blank lines are folded.
 -->
 
@@ -138,23 +138,23 @@ reproducible Monte Carlo analysis.
 ## Software & deployment
 
 <!--
-Under Software & deployment in the Methods & tools grid. One plain-text description;
+Under Software & deployment in the Experience and tools grid. One plain-text description;
 blank lines are folded.
 -->
 
-Linux, CMake, and Git; GitHub Actions workflows and GitLab CI/CD pipelines;
-Docker and Podman containers; CUDA, ROS 2, and MoveIt 2; code generation.
-Profiling with NVIDIA Nsight Systems/Compute and MATLAB Profiler; testing with
-Google Test, Catch2, CTest, pytest, and MATLAB Unit Test; debugging and memory
-checks with GDB, Valgrind, and sanitizers.
+Experience with Linux, CMake, and Git; GitHub Actions workflows and GitLab CI/CD
+pipelines; Docker and Podman containers; ROS 2 and MoveIt 2; code generation.
+Experience with NVIDIA Nsight Systems/Compute, MATLAB Profiler, and Valgrind for
+profiling; Google Test, Catch2, CTest, pytest, and MATLAB Unit Test for testing;
+GDB for debugging; Valgrind and sanitizers for memory checks.
 
 ## Hardware
 
 <!--
-Under Hardware in the Methods & tools grid. One plain-text description; blank lines are
+Under Hardware in the Experience and tools grid. One plain-text description; blank lines are
 folded.
 -->
 
-Embedded computing platforms: NVIDIA Jetson and Raspberry Pi.
-Vision sensors: iniVation event cameras, Intel RealSense depth cameras, and
+Experience with NVIDIA Jetson and Raspberry Pi embedded computing platforms;
+iniVation event cameras, Intel RealSense depth cameras, and
 Tyvak Milani/FUTX navigation cameras.

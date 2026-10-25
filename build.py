@@ -175,7 +175,7 @@ about+='</section><section class="section"><div class="section-head"><h2>Educati
 about+=row('2023–2027','PhD in Aerospace Engineering',copy_html("about", 'PhD in Aerospace Engineering'),'DEFENCE EXPECTED FEB–MAR 2027')
 about+=row('2021–2023','MSc in Space Engineering',copy_html("about", 'MSc in Space Engineering'))
 about+=row('2018–2021','BSc in Aerospace Engineering',copy_html("about", 'BSc in Aerospace Engineering'))
-about+='</section><section id="skills"><h2>Methods &amp; tools</h2><div class="skill-grid">'
+about+='</section><section id="skills"><h2>Experience and tools</h2><div class="skill-grid">'
 skills=[('Estimation & navigation',copy_text('about', 'Estimation & navigation')),('Programming',copy_text('about', 'Programming')),('Vision & machine learning',copy_text('about', 'Vision & machine learning')),('Rendering & simulation',copy_text('about', 'Rendering & simulation')),('Software & deployment',copy_text('about', 'Software & deployment')),('Hardware',copy_text('about', 'Hardware'))]
 for title,desc in skills: about+=f'<div><h3>{e(title)}</h3><p>{e(desc)}</p></div>'
 about+='</div></section><div class="callout"><div><h2>Research profiles &amp; contact</h2><p>Italian (native). English: C1 spoken and written, C2 reading.</p><div class="links" style="margin-top:20px">'+a(LINKEDIN,'LinkedIn')+a(SCHOLAR,'Google Scholar')+a('https://orcid.org/0009-0003-6157-3515','ORCID')+a('https://www.aero.polimi.it/en/staff/pietro.califano','Politecnico profile')+a('mailto:pietro.califano@polimi.it','Email')+'</div></div></div>'
