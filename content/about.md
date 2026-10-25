@@ -99,7 +99,7 @@ close-proximity operations, supervised by Prof. Roberto Opromolla. Final grade: 
 ## Estimation & navigation
 
 <!--
-Under Estimation & navigation in the Experience and tools grid. One plain-text description;
+Under Estimation & navigation in the Experience, skills and tools grid. One plain-text description;
 blank lines are folded.
 -->
 
@@ -109,16 +109,17 @@ spacecraft GNC.
 ## Programming
 
 <!--
-Under Programming in the Experience and tools grid. One plain-text description; blank lines
+Under Programming in the Experience, skills and tools grid. One plain-text description; blank lines
 are folded.
 -->
 
-Experience with C++20, CUDA, Python, MATLAB/Simulink, and Bash.
+Experience with C, C++11–20, CUDA, Python, MATLAB/Simulink, and Bash;
+MATLAB code generation; Python/MATLAB bindings and wrappers.
 
 ## Vision & machine learning
 
 <!--
-Under Vision & machine learning in the Experience and tools grid. One plain-text description;
+Under Vision & machine learning in the Experience, skills and tools grid. One plain-text description;
 blank lines are folded.
 -->
 
@@ -128,7 +129,7 @@ Runtime, TensorRT.
 ## Rendering & simulation
 
 <!--
-Under Rendering & simulation in the Experience and tools grid. One plain-text description;
+Under Rendering & simulation in the Experience, skills and tools grid. One plain-text description;
 blank lines are folded.
 -->
 
@@ -138,12 +139,12 @@ reproducible Monte Carlo analysis.
 ## Software & deployment
 
 <!--
-Under Software & deployment in the Experience and tools grid. One plain-text description;
+Under Software & deployment in the Experience, skills and tools grid. One plain-text description;
 blank lines are folded.
 -->
 
 Experience with Linux, CMake, and Git; GitHub Actions workflows and GitLab CI/CD
-pipelines; Docker and Podman containers; ROS 2 and MoveIt 2; code generation.
+pipelines; Docker and Podman containers; ROS 2 and MoveIt 2.
 Experience with NVIDIA Nsight Systems/Compute, MATLAB Profiler, and Valgrind for
 profiling; Google Test, Catch2, CTest, pytest, and MATLAB Unit Test for testing;
 GDB for debugging; Valgrind and sanitizers for memory checks.
@@ -151,7 +152,7 @@ GDB for debugging; Valgrind and sanitizers for memory checks.
 ## Hardware
 
 <!--
-Under Hardware in the Experience and tools grid. One plain-text description; blank lines are
+Under Hardware in the Experience, skills and tools grid. One plain-text description; blank lines are
 folded.
 -->
 
